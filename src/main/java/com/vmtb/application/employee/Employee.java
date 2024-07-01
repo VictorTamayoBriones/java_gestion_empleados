@@ -1,4 +1,11 @@
-public class Employe {
+package com.vmtb.application.employee;
+
+/**
+ * Clase que representa a un empleado
+ * Proporciona métodos para gestionar la información del empleado.
+ */
+
+public class Employee {
     private String name;
     private int age;
     private int salary;
@@ -29,7 +36,13 @@ public class Employe {
         this.salary = salary;
     }
 
-    Employe(String name, int age, int salary){
+    /**
+     * Constructor de la clase
+     * @param name
+     * @param age
+     * @param salary
+     */
+    Employee(String name, int age, int salary){
         this.name = name;
         this.age = age;
         this.salary = salary;

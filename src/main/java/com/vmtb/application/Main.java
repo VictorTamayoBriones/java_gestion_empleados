@@ -1,8 +1,13 @@
+package com.vmtb.application;
+
+import com.vmtb.application.employee.Commercial;
+import com.vmtb.application.employee.Delivery;
+
 public class Main {
 
     public static void main(String[] args){
 
-        System.out.println("Delivery and Commercial with plus");
+        System.out.println("com.vmtb.application.employee.Delivery and com.vmtb.application.employee.Commercial with plus");
 
         Delivery delivery = new Delivery("Juan", 24, 1000, "zona 3");
         delivery.plus(delivery.getSalary());
@@ -14,7 +19,7 @@ public class Main {
 
         System.out.println("\n--------------------------\n");
 
-        System.out.println("Delivery and Commercial without plus");
+        System.out.println("com.vmtb.application.employee.Delivery and com.vmtb.application.employee.Commercial without plus");
 
         Delivery delivery2 = new Delivery("Pedro", 26, 1000, "zona 2");
         delivery2.plus(delivery2.getSalary());
